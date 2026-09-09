@@ -19,7 +19,11 @@
 
 **Resultado esperado:** True
 
-**Resultado obtido:** ____________________
+**Resultado obtido:**   
+```
+assert None is True
++  where None = pode_emprestar(True, False, 0)
+```
 
 **Status:** 
 - [ ] Passou
@@ -44,7 +48,7 @@
 
 **Resultado esperado:** False
 
-**Resultado obtido:** ____________________
+**Resultado obtido:** PASSED
 
 **Status:** 
 - [x] Passou 
@@ -69,7 +73,7 @@
 
 **Resultado esperado:** False
 
-**Resultado obtido:** ____________________
+**Resultado obtido:** PASSED
 
 **Status:**
 - [x] Passou
@@ -94,7 +98,11 @@
 
 **Resultado esperado:** True
 
-**Resultado obtido:** ____________________
+**Resultado obtido:** 
+```
+assert None is True
++  where None = pode_emprestar(True, False, 2)
+```
 
 **Status:** 
 - [ ] Passou 
@@ -119,7 +127,11 @@
 
 **Resultado esperado:** False
 
-**Resultado obtido:** ____________________
+**Resultado obtido:** 
+```
+assert None is False
++  where None = pode_emprestar(True, False, 3)
+```
 
 **Status:** 
 - [ ] Passou 
@@ -146,7 +158,7 @@
 
 **Resultado esperado:** 0.00
 
-**Resultado obtido:** ____________________
+**Resultado obtido:** PASSED
 
 **Status:** 
 - [x] Passou 
@@ -170,7 +182,7 @@
 
 **Resultado esperado:** 0.00
 
-**Resultado obtido:** ____________________
+**Resultado obtido:** PASSED
 
 **Status:** 
 - [x] Passou 
@@ -195,7 +207,7 @@
 
 **Resultado esperado:** 6.00
 
-**Resultado obtido:** ____________________
+**Resultado obtido:** PASSED
 
 **Status:** 
 - [x] Passou 
@@ -219,7 +231,7 @@
 
 **Resultado esperado:** 14.00
 
-**Resultado obtido:** ____________________
+**Resultado obtido:** PASSED
 
 **Status:** 
 - [x] Passou 
@@ -243,7 +255,11 @@
 
 **Resultado esperado:** 17.00
 
-**Resultado obtido:** ____________________
+**Resultado obtido:** 
+```
+assert None == 17.0
+where None = calcular_multa(8)
+```
 
 **Status:** 
 - [ ] Passou 
@@ -268,7 +284,11 @@
 
 **Resultado esperado:** 23.00
 
-**Resultado obtido:** ____________________
+**Resultado obtido:** 
+```
+assert None == 23.0
++  where None = calcular_multa(10)
+```
 
 **Status:** 
 - [ ] Passou 
@@ -293,7 +313,7 @@
 
 **Resultado esperado:** "sem atraso"
 
-**Resultado obtido:** ____________________
+**Resultado obtido:** PASSED
 
 **Status:** 
 - [x] Passou
@@ -318,7 +338,7 @@
 
 **Resultado esperado:** "atraso leve"
 
-**Resultado obtido:** ____________________
+**Resultado obtido:** PASSED
 
 **Status:** 
 - [x] Passou 
@@ -343,7 +363,7 @@
 
 **Resultado esperado:** "atraso leve"
 
-**Resultado obtido:** ____________________
+**Resultado obtido:** PASSED
 
 **Status:** 
 - [x] Passou 
@@ -368,7 +388,7 @@
 
 **Resultado esperado:** "atraso moderado"
 
-**Resultado obtido:** ____________________
+**Resultado obtido:** PASSED
 
 **Status:** 
 - [x] Passou 
@@ -393,7 +413,7 @@
 
 **Resultado esperado:** "atraso moderado"
 
-**Resultado obtido:** ____________________
+**Resultado obtido:** PASSED
 
 **Status:** 
 - [x] Passou 
@@ -418,7 +438,7 @@
 
 **Resultado esperado:** "atraso grave"
 
-**Resultado obtido:** ____________________
+**Resultado obtido:** PASSED
 
 **Status:** 
 - [x] Passou 
