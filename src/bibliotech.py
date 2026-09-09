@@ -3,13 +3,13 @@ def pode_emprestar(usuario_ativo, possui_pendencia, emprestimos_ativos):
   if not usuario_ativo:
     return False
 
-if possui_pendencia:
-  return False
+  if possui_pendencia:
+    return False
 
 # Existe um defeito proposital nesta condição.
-if emprestimos_ativos > LIMITE_EMPRESTIMOS:
-  return False
-  return True
+  if emprestimos_ativos > LIMITE_EMPRESTIMOS:
+    return False
+    return True
 
 def calcular_multa(dias_atraso):
   if dias_atraso <= 0:
